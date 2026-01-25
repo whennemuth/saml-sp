@@ -23,8 +23,9 @@
     "dist"
   ],
   "dependencies": {
-    "@xmldom/xmldom": "^0.8.10",
     "@types/saml2-js": "^3.0.4",
+    "@xmldom/xmldom": "^0.8.10",
+    "js-yaml": "^3.14.2",
     "jsonwebtoken": "^9.0.2",
     "ms": "^3.0.0-canary.1",
     "saml2-js": "^4.0.2"
@@ -41,5 +42,8 @@
     "ts-node": "^10.9.1",
     "tsx": "^4.21.0",
     "typescript": "~5.2.2"
+  },
+  "overrides": {
+    "js-yaml": "^3.14.2"
   }
 }
